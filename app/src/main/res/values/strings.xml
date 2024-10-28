@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ketNoi</string>
+    <string name="app_name_new">Giải câu đố</string>
+    <string name="intent">Intent</string>
+    <string name="setting">Setting</string>
+    <string name="optine_intent">Intent</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Hello_fragment_1">câu 1</string>
+    <string name="Hello_fragment_2">câu 2\n</string>
+    <string name="NoiDungTiepTheo">Nội dung tiếp theo</string>
+    <string name="quayLaiFragmentDau">Quay lại Fragment đầu</string>
+    <string name="BatDauKiemTra">Bắt đầu bài kiểm tra</string>
+    <string name="back">Trở lại</string>
+    <string name="cau1">Câu 1 :</string>
+    <string name="cau2">Câu 2 :</string>
+    <string name="cau3">Câu 3 :</string>
+    <string name="cauhoi1">Câu hỏi: Con gì đập thì sống, không đập thì chết?</string>
+    <string name="dapan1a">Con gà</string>
+    <string name="dapan1b">Con cá</string>
+    <string name="dapan1c">Con tim</string>
+    <string name="dapan1d">Con lợn</string>
+    <string name="cauhoi2">Câu hỏi: Khi nào 1 cộng 1 lại lớn hơn 2?</string>
+    <string name="dapan2a">Khi 1 người gặp 1 người yêu nhau</string>
+    <string name="dapan2b">Khi 1 người già gặp 1 người trẻ</string>
+    <string name="dapan2c">Khi 1 chiếc lá rơi gặp một cơn gió</string>
+    <string name="dapan2d">Khi 1 cộng với 1 trên máy tính</string>
+    <string name="cauhoi3">Cái gì càng lấy đi nhiều thì lại càng lớn?</string>
+    <string name="dapan3a">Cái hồ</string>
+    <string name="dapan3b">Cái hố</string>
+    <string name="dapan3c">Con đường</string>
+    <string name="dapan3d">Dòng sông</string>
+    <string name="thoat">Thoát</string>
+    <string name="lamlai">Làm lại</string>
+    <string name="todo">TODO</string>
+    <string name="countdowntime">Thời gian còn lại: 10</string>
+
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        tools:context=".cau_3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cau3"
+                android:background="@drawable/fade_background"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="102dp"
+                android:text="@string/cauhoi3"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/timerTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/countdowntime"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/btnDapAnAcau3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/option_background"
+                    android:text="@string/dapan3a" />
+
+                <Button
+                    android:id="@+id/btnDapAnBcau3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/option_background"
+                    android:layout_weight="1"
+                    android:text="@string/dapan3b" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnDapAnCcau3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/option_background"
+                    android:layout_weight="1"
+                    android:text="@string/dapan3c" />
+
+                <Button
+                    android:id="@+id/btnDapAnDcau3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/option_background"
+                    android:layout_weight="1"
+                    android:text="@string/dapan3d" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </FrameLayout>
+</layout>

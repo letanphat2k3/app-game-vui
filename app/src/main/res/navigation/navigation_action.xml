@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_action"
+    app:startDestination="@id/cau_1">
+    <fragment
+        android:id="@+id/cau_1"
+        android:name="com.example.ketnoi.cau_1"
+        android:label="fragment_cau_1"
+        tools:layout="@layout/fragment_cau_1" >
+        <action
+            android:id="@+id/action_cau_1_to_cau_2"
+            app:destination="@id/cau_2" />
+        <action
+            android:id="@+id/action_cau_1_to_tl_false2"
+            app:destination="@id/tl_false" />
+    </fragment>
+    <fragment
+        android:id="@+id/cau_2"
+        android:name="com.example.ketnoi.cau_2"
+        android:label="fragment_cau_2"
+        tools:layout="@layout/fragment_cau_2" >
+        <action
+            android:id="@+id/action_cau_2_to_cau_3"
+            app:destination="@id/cau_3" />
+        <action
+            android:id="@+id/action_cau_2_to_tl_false2"
+            app:destination="@id/tl_false" />
+    </fragment>
+    <fragment
+        android:id="@+id/cau_3"
+        android:name="com.example.ketnoi.cau_3"
+        android:label="fragment_cau_3"
+        tools:layout="@layout/fragment_cau_3" >
+        <action
+            android:id="@+id/action_cau_3_to_win"
+            app:destination="@id/win" />
+        <action
+            android:id="@+id/action_cau_3_to_tl_false2"
+            app:destination="@id/tl_false" />
+    </fragment>
+    <fragment
+        android:id="@+id/tl_false"
+        android:name="com.example.ketnoi.tl_false"
+        android:label="fragment_tl_false"
+        tools:layout="@layout/fragment_tl_false" />
+    <fragment
+        android:id="@+id/win"
+        android:name="com.example.ketnoi.win"
+        android:label="fragment_win"
+        tools:layout="@layout/fragment_win" >
+        <action
+            android:id="@+id/action_win_to_cau_1"
+            app:destination="@id/cau_1" />
+    </fragment>
+</navigation>
